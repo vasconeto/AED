@@ -1,23 +1,23 @@
-kilo = int(input("Indique o seu peso (kg): "))
-planet = int(input("Indique o código do planeta: "))
+kilo = int(input("Indique o seu peso (kg): "))          #Peso
+planet = int(input("Indique o código do planeta: "))    #Planeta
 
 match planet:
-    case 1:
+    case 1:                                     #Mercurio
         kilo_2 = (kilo*0.37)/0.98
         print("O seu peso no planeta 1 seria de %0.2f" %(kilo_2))
-    case 2:
+    case 2:                                     #Venus
         kilo_2 = (kilo*0.90)/0.98
         print("O seu peso no planeta 1 seria de %0.2f" %(kilo_2))
-    case 3:
+    case 3:                                     #Marte
         kilo_2 = (kilo*0.37)/0.98
         print("O seu peso no planeta 1 seria de %0.2f" %(kilo_2))
-    case 4:
+    case 4:                                     #Jupiter
         kilo_2 = (kilo*2.53)/0.98
         print("O seu peso no planeta 1 seria de %0.2f" %(kilo_2))
-    case 5:
+    case 5:                                     #Saturno
         kilo_2 = (kilo*1.06)/0.98
         print("O seu peso no planeta 1 seria de %0.2f" %(kilo_2))
-    case 6:
+    case 6:                                     #Urano
         kilo_2 = (kilo*0.91)/0.98
         print("O seu peso no planeta 1 seria de %0.2f" %(kilo_2))
     case _:
