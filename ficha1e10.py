@@ -1,3 +1,11 @@
+print("Planetas")
+print("1 - Mercurio")
+print("2 - Venus")
+print("3 - Marte")
+print("4 - Jupiter")
+print("5 - Saturno")
+print("6 - Urano")
+
 kilo = int(input("Indique o seu peso (kg): "))          #Peso
 planet = int(input("Indique o código do planeta: "))    #Planeta
 
