@@ -20,7 +20,7 @@ while True:
     else:
         print("Esgotou as 10 tentativas :(")
 
-    new = input("Novo jogo (S/N)? ")
+    new = input("Novo jogo (S/N)? ").upper()
     if new == "N":
         break
     elif new != "S":
