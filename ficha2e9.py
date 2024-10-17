@@ -15,4 +15,4 @@ for i in range(terms):
 if sec == 0:
     print("Não há um segundo maior número.")
 else:
-    print("O segundo maior elemento é: %d" % sec)
+    print("O segundo maior valor da lista de numeros lidos é: %d" % sec)
