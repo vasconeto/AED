@@ -1,4 +1,5 @@
 import random
+
 while True:
     num = random.randint(1,50)
     n = int(input("Tentativa: "))
