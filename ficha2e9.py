@@ -6,8 +6,7 @@ sec = 0
 for i in range(terms):
     n = int(input("Número: ")) 
 
-    if n > mai:
-        sec = mai  
+    if n > mai:             
         mai = n    
     elif n > sec and n != mai:
         sec = n    
